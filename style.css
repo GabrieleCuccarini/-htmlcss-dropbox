@@ -196,3 +196,28 @@ h3 {
 .dimensioned {
     width: 100%;
 }
+
+.banner {
+    width: 920px;
+    margin: 100px auto;
+}
+
+.banner h2 {
+    margin-bottom: 80px;
+}
+
+.inferno {
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.banner-container {
+    width: 100%;
+    padding-top: 100px;
+    background-color:rgb(180,208,231);
+}
+
+.banner.flex.teal {
+    margin-top: 0;
+    background-color:rgb(180,208,231);
+}
