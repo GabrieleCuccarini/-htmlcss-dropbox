@@ -9,8 +9,27 @@
     box-sizing: border-box;
 }
 
-nav {
+nav .cont-nav ul {
+    list-style: none;
     display: flex;
+    column-gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    position: relative;
+    height: 59px;
+}
+
+.total-nav-container {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: white;
 }
 
 h2 {
@@ -23,15 +42,15 @@ font-size: 3rem;
 
 .cont-nav {
     display: flex;
+    align-items: center;
 }
 
 .cont-nav.moved {
-    align-items: center;
     position: absolute;
     right: 0;
 }
 
-.cont-nav>* {
+.cont-nav > * {
     margin: 15px 10px;
 }
 
@@ -129,7 +148,6 @@ font-size: 3rem;
 }
 
 .container-3col li {
-    list-style: none;
     margin: 15px 0;
 }
 
