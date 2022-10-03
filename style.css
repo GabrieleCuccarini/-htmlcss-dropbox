@@ -1,5 +1,6 @@
 :root{
-    --bg-blue: rgb(180,208,231)
+    --bg-blue: rgb(180,208,231);
+    --border-grey: rgb(208,208,211);
 }
 
 * {
@@ -45,7 +46,6 @@ font-size: 3rem;
     width: 100%;
     background-color: var(--bg-blue);
     padding-top: 80px;
-    margin-bottom: 80px
 }
 
 .container1200{
@@ -79,7 +79,8 @@ font-size: 3rem;
     position: relative
 }
 
-.col60 img {
+.container-section-1 .col60 img {
+    display: block;
     width: 100%;
     height: 500px;
     position: absolute;
@@ -108,9 +109,11 @@ font-size: 3rem;
 .container-3col {
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .column {
+    flex-basis: 30%;
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(208,208,211);
@@ -119,4 +122,77 @@ font-size: 3rem;
 .dropuse {
     text-align: center;
     border-bottom: 1px solid rgb(208,208,211);
+}
+
+.column > * {
+    margin: 5px 0;
+}
+
+.container-3col li {
+    list-style: none;
+    margin: 15px 0;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+.secondary {
+    margin-top: 50px;
+    border: 1px solid rgb(208,208,211);
+}
+
+.inside-container {
+    display: flex;
+    padding: 20px;
+}
+
+.container75 {
+    flex-basis: 75%;
+}
+
+.container25 {
+    flex-basis: 25%;
+}
+
+.minor-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0 30px 0;
+}
+
+.section {
+    margin: 100px 0;
+}
+
+.container920 .col60 img {
+    display: block;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.section .container920 .col40 {
+    padding: 80px 25px;
+}
+
+.section .container920 .col40 p {
+    margin: 30px 0;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-basis: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dimensioned {
+    width: 100%;
 }
