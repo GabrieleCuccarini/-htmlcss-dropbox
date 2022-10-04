@@ -96,6 +96,11 @@ font-size: 3rem;
     margin: 30px 0;
 }
 
+.col30 {
+    flex-basis: 30%;
+    display: flex;
+}
+
 .col40 {
     flex-basis: 40%;
     display: flex;
@@ -103,8 +108,13 @@ font-size: 3rem;
 }
 
 .col60 {
-    flex-basis: 58%;
+    flex-basis: 60%;
     position: relative
+}
+
+.col70 {
+    flex-basis: 70%;
+    display: flex;
 }
 
 .container-section-1 .col60 img {
@@ -113,7 +123,8 @@ font-size: 3rem;
     position: absolute;
 }
 
-.col40 i {
+.container-3col .col40 i,
+.container1200 .col40 i {
     margin-top: 60px;
     margin-bottom: 50px;
     font-size: 40px;
@@ -232,9 +243,35 @@ h3 {
     margin-bottom: 80px;
 }
 
-.inferno {
-    height: 500px;
-    background-color: aquamarine;
+.colors-container {
+    width: 100%;
+}
+
+.block.flex{
+    display: flex;
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+}
+
+.square-small {
+    height: calc(100vw / 6);
+    width: 50%;
+}
+
+.square-small img {
+    filter: invert(1);
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 40% 15%;
+}
+
+.square-small .img-cont .except {
+    padding: 30% 15% 0 15%;
+}
+
+.square-small .img-cont .exceptbis {
+    padding: 50% 15%;
 }
 
 .banner-container {
@@ -245,4 +282,27 @@ h3 {
 
 .banner.flex.teal {
     margin-top: 0;
+}
+
+.mini-border {
+    border: 15px solid rgb(209,233,205);
+    border-left: none;
+}
+
+.central {
+    background-color: rgb(245,245,245);
+    padding: 50px;
+}
+
+.row {
+    border-top: 1px solid rgb(200,200,200);
+}
+
+.row.flex > * {
+    padding: 30px;
+    font-weight: bold;
+}
+
+.col30.end {
+    justify-content: end;
 }
