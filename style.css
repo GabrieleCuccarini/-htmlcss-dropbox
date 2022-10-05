@@ -107,11 +107,11 @@ font-size: 3rem;
 }
 
 .alt-btn {
-    margin-left: 30%;
+    align-self: flex-end;
     color: black;
     background-color: white;
     border: none;
-    padding: 20px;
+    padding: 25px;
 }
 
 .btn.bigger {
@@ -310,6 +310,8 @@ h3 {
     display: flex;
     width: calc(100% / 3);
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .square-small {
@@ -322,7 +324,7 @@ h3 {
     width: 100%;
     display: block;
     margin: auto;
-    padding: 40% 15%;
+    padding: 20vh 2vw;
 }
 
 .square-small .img-cont .except {
@@ -351,6 +353,7 @@ h3 {
 .central {
     background-color: rgb(245,245,245);
     padding: 50px;
+    padding: 0 1vw;
 }
 
 .row {
