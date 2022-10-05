@@ -24,16 +24,77 @@
                     <a href="#"><img src="img/logo-small.png" alt="Logo Dropbox"></a>
                 </div>
                 <ul>
-                    <li><a href="#">Perché Dropbox</a></li>
-                    <li><a href="#">Funzioni</a></li>
-                    <li><a href="#">Piani e prezzi</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Perché Dropbox</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Funzioni</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Piani e prezzi</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div class="cont-nav moved">
                 <ul>
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Contatta l'ufficio vendite</a></li>
-                    <li><a href="#">Accedi</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Supporto</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Contatta l'ufficio vendite</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Accedi</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                    <a href="#">Link esterno</a>
+                                </div>
+                        </div>
+                    </li>
                 </ul>
                 <button class="btn">Inizia</button>
             </div>
@@ -57,7 +118,8 @@
                                     esistente.</p>
                                 <button class="btn">Inizia la tua prova gratuita</button>
                                 <div>Annulla in qualsiasi momento</div>
-                                <div><i class="fa-solid fa-arrow-down"></i></div>
+                                <!--BONUS 1-->
+                                <div><a href="#linked"><i class="fa-solid fa-arrow-down"></i></a></div>
                             </div>
                         </div>
                         <div class="col60">
@@ -69,7 +131,7 @@
         </div>
 
         <!--SECTION 2-->
-        <div class="section">
+        <div class="section" id="linked">
             <div class="container920">
                 <h2>Trova il piano business che fa per te</h2>
                 <div class="radio flex">
@@ -337,8 +399,9 @@
                 <h2 style="margin-bottom:50px">Domande frequenti</h2>
                 <div class="row flex">
                     <div class="col70">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</div>
-                    <div class="col30 end"><i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="col30 end"><i class="fa-solid fa-chevron-down"></i></div>                  
                 </div>
+  
                 <div class="row flex">
                     <div class="col70">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</div>
                     <div class="col30 end"><i class="fa-solid fa-chevron-down"></i></div>
@@ -349,6 +412,19 @@
                 </div>
             </div>
         </section>
+
+        <div class="container920 dropdown" style="margin-bottom:100px">
+            <h2 style="margin-bottom:50px">Domande frequenti</h2>
+            <div class="row flex">
+                <div class="col70">Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</div>
+                <div class="col30 end"><i class="fa-solid fa-chevron-down"></i></div>                  
+            </div>
+            <div class="dropdown-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit a eum cupiditate, dolorem veniam ducimus fuga distinctio aut quos consectetur obcaecati facilis ratione ea magnam suscipit magni sunt officia fugiat.</p>
+            </div>
+        </div>
+
+    </main>
 
         <footer>
             <div class="container1200 flex special">
@@ -414,9 +490,6 @@
             </div>
 
         </footer>
-
-    </main>
-
 
 </body>
 
